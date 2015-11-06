@@ -67,7 +67,7 @@ async def generator():
   yield 1  # Syntax Error :(
 ```
 
-`asyncio.Future`s can not be yield directly, they must be wrapped by `agent.Result`.
+`asyncio.Future`s can not be yielded directly, they must be wrapped by `agent.Result`.
 
 
 ## License
